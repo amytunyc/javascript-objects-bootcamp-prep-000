@@ -2,8 +2,8 @@ var playlist = {
   'Mozart':'Requiem',
   'Albanini':'Adagio'
 }
-function updatePlaylist(playlist, artistName, title){
-  playlist[artistName] = title
+function updatePlaylist(playlist, artistName, songTitle){
+  playlist[artistName] = songTitle
   return playlist
 }
 function removeFromPlaylist
