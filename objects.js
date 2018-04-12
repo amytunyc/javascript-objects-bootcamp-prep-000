@@ -3,5 +3,6 @@ var playlist = {
   'Albanini':'Adagio'
 }
 function updatePlaylist(playlist, artistName, songTitle){
-  playlist{artistName]
+  playlist[artistName]=songTitle
+  return playlist
 }
