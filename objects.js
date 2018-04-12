@@ -2,4 +2,4 @@ var playlist = {
   'Mozart':'Requiem',
   'Albanini':'Adagio'
 }
-function updatePlaylist(okay)
+function updatePlaylist(playlist, artistName, songTitle)
